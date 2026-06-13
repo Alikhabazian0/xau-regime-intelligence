@@ -32,3 +32,6 @@ data/pretrain/
 
 data/processed/xau_2020_2025_dataset.csv
 data/processed/xau_2020_2025_with_silver_dxy.csv
+
+data/processed/xau_with_all_macro.csv
+data/processed/xau_with_vix_dxy.csv
