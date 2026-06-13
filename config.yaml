@@ -1,0 +1,32 @@
+# Configuration file for the pipeline
+
+data:
+  raw_path: "data\\raw\\raw.csv"
+  processed_path: "data\\processed\\"
+
+cleaning:
+  missing_strategy: "median" # median, zerom or forward
+
+feature_engineering:
+  add_rsi: true
+  add_macd: true
+  add_volatility: true
+
+modeling:
+  test_size: 0.2
+  random_state: 42
+  optimization_trials: 30
+  cv_folds: 5
+
+models:
+  - CatBoost
+  - LightGBM
+  - XGBoost
+  - RandomForest
+  - ExtraTrees
+  - LogisticRegression
+
+evaluation:
+  primary_metric: "'avg_minority_f1"  # focus on downward/upward classes
+  save_plots: ture
+

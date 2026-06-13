@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+
+# Virtual environment
+venv/
+
+# CatBoost generated files
+catboost_info/
+
+# Personal reports / notes
+reports/
+
+# Experiment outputs
+experiment/
+experiments/
+
+# Model artifacts
+*.pt
+*.pkl
+*.npy
+*.npz
+
+# Generated figures
+*.png
+
+# Logs
+*.log
+
+# data - its huge
+data/raw/
+data/pretrain/
+
+data/processed/xau_2020_2025_dataset.csv
+data/processed/xau_2020_2025_with_silver_dxy.csv

@@ -1,0 +1,28 @@
+# data download
+yfinance == 1.4.1
+
+# Core data manipulation
+pandas==2.0.3
+numpy==1.24.3
+imbalanced-learn==0.12.0
+
+# Machine Learning
+scikit-learn==1.3.0
+catboost==1.2.2
+lightgbm==4.0.0
+xgboost==1.7.6
+
+# Optimization
+optuna==3.3.0
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Utilities
+pyyaml==6.0
+joblib==1.3.2
+tqdm==4.65.0
+
+# Deep learning (for TCN)
+torch==2.0.1
