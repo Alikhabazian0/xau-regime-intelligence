@@ -726,7 +726,7 @@ Potential extensions include:
 
 This project demonstrates a complete quantitative research workflow spanning data engineering, macroeconomic modeling, machine learning, deep learning, walk-forward validation, and trading-system evaluation for financial regime classification.
 
-# PS note
+# PS Note
 
 The processed feature dataset used for the final TCN experiments is included.
 All other datasets can be regenerated using the provided build scripts.
